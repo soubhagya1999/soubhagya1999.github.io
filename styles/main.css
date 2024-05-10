@@ -64,7 +64,25 @@ html, body {
 }
 
 #soundcloud-player .search-results {
+	display: block;
 	justify-content: center;
     margin-top: 30px;
 }
-
+#soundcloud-player .footer{
+	border: 1px solid #33353F; /* border-t-[#33353F] translates to border-top-color */
+	position: relative;
+	bottom: 0; /* Position at the bottom */
+  	left: 0; /* Position at the left */
+  	right: 0; /* Position at the right */
+	border-top-width: 1px;
+	border-left-width: 0;
+	border-right-width: 0;
+	border-bottom-width: 0;
+	/* z-index: 10; */
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 2rem; /* px-8 translates to padding-left and padding-right */
+	padding-right: 2rem;
+	color: aliceblue; /* text-white translates to color */
+	font-size: 1rem; /* text-base translates to font-size */
+}
