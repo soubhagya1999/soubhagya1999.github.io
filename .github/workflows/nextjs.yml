@@ -29,8 +29,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     defaults:
-      run:
+      run: |
         working-directory: ${{ github.workspace }}/vibes_music_app
+        echo "the github.workspace is ${{ github.workspace }}"
+        echo "the github.workspace is" $GITHUB_WORKSPACE
     steps:
       - name: Checkout
         uses: actions/checkout@v4
