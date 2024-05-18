@@ -63,3 +63,7 @@ body {
     --scrollbar-thumb-hover-color: #6f6f6f; 
   }
 }
+
+.backdrop-blur {
+  backdrop-filter: blur(40px); /* Adjust the blur intensity as needed */
+}
