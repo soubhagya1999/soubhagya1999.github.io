@@ -6,6 +6,7 @@ const quicksand = Quicksand({
     subsets: ['latin'],
     weight:['400']
 })
+// border-b border-solid border-blue-500
 
 const OnHoldInfoSection = () => {
   return (
@@ -18,7 +19,7 @@ const OnHoldInfoSection = () => {
               <p className='text-xs md:text-sm xl:text-base'>Getting developed with ❤️ in India!</p>
               <div className='flex flex-col md:flex-row md:gap-1'>
                 <p className='text-xs md:text-sm'>All Rights reserved © 2024 by</p>
-                <Link href='https://www.soubhagya.net' className='text-xs md:text-sm'>www.soubhagya.net</Link>
+                <Link href='https://www.soubhagya.net' className='text-xs md:text-sm font-bold underline decoration-blue-500 underline-offset-4 decoration-1 md:decoration-2'>www.soubhagya.net</Link>
               </div>
             </div>
         </div>
