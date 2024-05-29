@@ -1,5 +1,6 @@
 import React from 'react'
 import { Quicksand } from 'next/font/google';
+import Link from 'next/link';
 
 const quicksand = Quicksand({ 
     subsets: ['latin'],
@@ -13,6 +14,13 @@ const OnHoldInfoSection = () => {
             <h1 className='mb-2 pb-2'>Coming Soon...</h1>
             <h2 className='text-lg md:text-xl xl:text-4xl'>This project is <strong>on-hold</strong></h2>
             <p className='text-sm md:text-lg xl:text-2xl'>as SoundCloud has <strong>stopped</strong> new app registrations, we&rsquo;re looking into <strong>alternate options</strong> like Spotify, etc...</p>
+            <div className='relative flex flex-col top-[10%] md:top-[20%] gap-1 mb-1 pb-1'>
+              <p className='text-xs md:text-sm xl:text-base'>Getting developed with ❤️ in India!</p>
+              <div className='flex flex-col md:flex-row md:gap-1'>
+                <p className='text-xs md:text-sm'>All Rights reserved © 2024 by</p>
+                <Link href='https://www.soubhagya.net' className='text-xs md:text-sm'>www.soubhagya.net</Link>
+              </div>
+            </div>
         </div>
         <div className='absolute backdrop-blur bg-white dark:bg-black opacity-30 w-full h-full blur-xl'></div>
     </section>
